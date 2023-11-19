@@ -13,7 +13,7 @@ body {
 }
 
 ::-webkit-scrollbar {
-    width: 12px;
+    width: 0px;
   }
   
 ::-webkit-scrollbar-thumb {
