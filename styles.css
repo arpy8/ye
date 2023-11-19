@@ -8,9 +8,24 @@ body {
     -webkit-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    overflow: hidden;
      
     background-image: url(https://media.giphy.com/media/U3qYN8S0j3bpK/giphy.gif)
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0); 
+}
+
+html {
+    scrollbar-color: rgba(0, 0, 0, 0) transparent;
+}
+
+body {
+    scrollbar-face-color: rgba(0, 0, 0, 0);
 }
 
 button {
