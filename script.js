@@ -12,7 +12,7 @@ fetch('https://api.kanye.rest/', {
 .then(response => response.json())
 .then(data => 
     {
-        // alert("A quote from Ye: "+data.quote);
+        alert("A quote from Ye: "+data.quote);
     }
 )
 .catch(error => console.error('Error:', error));
